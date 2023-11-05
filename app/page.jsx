@@ -1,5 +1,9 @@
+'use client'
 import { Features } from "@/Components/Home page components/Features";
 import Hero from "@/Components/Home page components/Hero";
+import 'react-responsive-carousel/lib/styles/carousel.min.css'
+import { Carousel } from "react-responsive-carousel";
+import { AppInfo } from "@/Components/Home page components/AppInfo";
 
 export default function Home() {
   return (
@@ -8,13 +12,28 @@ export default function Home() {
       <Hero />
 
       </div>
-      <section className="bg-yellow-100 my-10 flex flex-col">
+      <section className="bg-yellow-100 my-10 flex flex-col relative">
+        <div className="hidden md:flex absolute w-2/4 h-40 rounded-full bg-yellow-200 bottom-10 right-80 rotate-180 z-10 "></div>
+
           <div className="my-10">
-            <h2 className="text-center">Features</h2>
+            <h2 className="text-center text-3xl font-extrabold">Features</h2>
 
           </div>
           <div className="flex flex-col md:flex-row gap-4 mx-4 ">
-            <div className="flex justify-between gap-4">
+          
+
+         
+
+            <div className="flex w-full gap-4">
+            <Carousel
+            showIndicators={false}
+            
+            showStatus={false}
+             centerMode={true}
+            // autoPlay={true}
+            // infiniteLoop={true}
+          
+            width={450} >
             <Features 
         source={'/loanImg1.jpg'}
         header={'Loan amortization calculation'}
@@ -27,13 +46,33 @@ export default function Home() {
         description={'check it out'}
         buttonName={'Test tool '}
         />
+                      <Features 
+        source={'/loanImg4.jpg'}
+        header={'Loan application form'}
+        description={'check it out'}
+        buttonName={'Test tool '}
+        />
+                      <Features 
+        source={'/loanImg4.jpg'}
+        header={'Loan application form'}
+        description={'check it out'}
+        buttonName={'Test tool '}
+        />
+                      <Features 
+        source={'/loanImg4.jpg'}
+        header={'Loan application form'}
+        description={'check it out'}
+        buttonName={'Test tool '}
+        />
+         </Carousel>
 
             </div>
+           
        
         
-     <div className="">
+     <div className="flex flex-col">
       <h2 className="text-lg">Learn about our <span className="font-bold">Awesome</span> features :</h2>
-      <ul className="">
+      <ul>
         <li>Experience key functionalities that make our loan tracker app an essential tool for managing your loans and improving your financial well-being.</li>
         <li>Explore a wide range of features designed to simplify the loan tracking process,
           enhance your financial planning, and ensure you're always in control of your financial future.</li>
@@ -51,9 +90,18 @@ export default function Home() {
           </div>
         
       </section>
+
+
       <section className="bg-yellow-100">
+            <h2 className="text-center my-10">How it work</h2>
         <div>
           <div>
+           
+          </div>
+
+          <div>
+            <AppInfo />
+            
             
           </div>
 

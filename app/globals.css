@@ -11,15 +11,16 @@ input::placeholder{
 ul li{
     margin: 20px 0;
 }
-ul li::before{
+/* li::before{
     content:'\2022';
-    color: orangered;
+  
     font-weight:900;
     width:2rem;
     
     display: inline-block;
 
-}
+}  */
+/* Home page css */
 
 main{
 
@@ -44,4 +45,7 @@ section{
     width: 100%;
     height: 120vh;
     
+}
+.info{
+    clip-path: polygon(30% 0%, 70% 0%, 100% 30%, 100% 70%, 70% 100%, 30% 100%, 0% 70%, 0% 30%);
 }
