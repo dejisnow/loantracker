@@ -4,6 +4,7 @@ import Hero from "@/Components/Home page components/Hero";
 import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from "react-responsive-carousel";
 import { AppInfo } from "@/Components/Home page components/AppInfo";
+import { Testmonials } from "@/Components/Home page components/Testmonials";
 
 export default function Home() {
   return (
@@ -92,10 +93,12 @@ export default function Home() {
       </section>
 
 
-      <section className="bg-yellow-100">
-            <h2 className="text-center my-10">How it work</h2>
+      <section className="bg-yellow-100 relative">
+      <div className="hidden md:flex absolute w-2/4 h-40 rounded-full bg-yellow-200 bottom-10 right-80 rotate-180 z-10 "></div>
+            <h2 className="text-center my-10">How it works</h2>
         <div>
           <div>
+            <Testmonials />
            
           </div>
 
