@@ -11,7 +11,49 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export const Testmonials = () => {
   return (
-    <div className='w-80 h-80'>
+    <div>
+
+  <div className='w-80 h-60'>
+        <div className=''>
+            <Image className='rounded-full' src='/loanImg2.jpg' width={30} height={30} />
+        </div>
+        <div>
+            <p className='text-justify my-3'> It not only tracks my loans but also provides me with a comprehensive overview of my financial health. </p>
+        </div>
+        <div>
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        </div>
+        <div className='border border-yellow-600 my-2'></div>
+
+        <p>Jessica Smith</p>
+        </div>
+
+
+        <div className='w-80 h-60'>
+        <div className=''>
+            <Image className='rounded-full' src='/loanImg2.jpg' width={30} height={30} />
+        </div>
+        <div>
+            <p className='text-justify my-3'> It not only tracks my loans but also provides me with a comprehensive overview of my financial health. </p>
+        </div>
+        <div>
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
+        </div>
+        <div className='border border-yellow-600 my-2'></div>
+
+        <p>Jessica Smith</p>
+        </div>
+
+
+        <div className='w-80 h-60'>
         <div className=''>
             <Image className='rounded-full' src='/loanImg2.jpg' width={30} height={30} />
         </div>
@@ -29,7 +71,11 @@ export const Testmonials = () => {
 
         <p>Jessica Smith</p>
 
+        </div>
+
+
     </div>
+   
 
     // "I've recommended this loan tracker app to all my friends and family.
     // It not only tracks my loans but also provides me with a comprehensive overview of my financial health. 
