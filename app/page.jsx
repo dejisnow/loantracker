@@ -17,7 +17,7 @@ export default function Home() {
         <div className="hidden md:flex absolute w-2/4 h-40 rounded-full bg-yellow-200 bottom-10 right-80 rotate-180 z-10 "></div>
 
           <div className="my-10">
-            <h2 className="text-center text-3xl font-extrabold">Features</h2>
+            <h2 className="text-center text-3xl font-extrabold">Features and Tools</h2>
 
           </div>
           <div className="flex flex-col md:flex-row gap-4 mx-4 ">
@@ -92,18 +92,52 @@ export default function Home() {
         
       </section>
 
+      <section className="bg-yellow-100 relative">
+      <div className="hidden md:flex absolute w-2/4 h-40 rounded-full bg-yellow-200 bottom-10 right-80 rotate-180 z-10 "></div>
+        <div>
+            <h2 className="text-center text-3xl font-extrabold">Loan Tracking & Management</h2>
+        </div>
+          <div>
+          <AppInfo />
+          </div>
+
+      </section>
+
 
       <section className="bg-yellow-100 relative">
       <div className="hidden md:flex absolute w-2/4 h-40 rounded-full bg-yellow-200 bottom-10 right-80 rotate-180 z-10 "></div>
-            <h2 className="text-center my-10">How it works</h2>
+            <h2 className="text-center text-3xl font-extrabold my-10">Testimonials</h2>
         <div>
           <div>
-            <Testmonials />
+            <Testmonials
+            statement={`It's a must-have tool for anyone looking to take control of their loans and financial future.`}
+            src={'/loanImg2.jpg'}
+            author={'Jessica Smith'}
+
+            />
+                   <Testmonials
+            statement={`It's a must-have tool for anyone looking to take control of their loans and financial future.`}
+            src={'/loanImg2.jpg'}
+            author={'Jessica Smith'}
+
+            />
+                   <Testmonials
+            statement={`It's a must-have tool for anyone looking to take control of their loans and financial future.`}
+            src={'/loanImg2.jpg'}
+            author={'Jessica Smith'}
+
+            />
+                   <Testmonials
+            statement={`It's a must-have tool for anyone looking to take control of their loans and financial future.`}
+            src={'/loanImg2.jpg'}
+            author={'Jessica Smith'}
+
+            />
            
           </div>
 
           <div>
-            <AppInfo />
+           
             
             
           </div>
