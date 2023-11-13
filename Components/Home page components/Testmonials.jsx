@@ -9,19 +9,19 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 
 
-export const Testmonials = ({statement,src,author,}) => {
+export const Testmonials = ({statement,src,author,job}) => {
   return (
-    <div className='flex flex-col justify-center text-center items-center my-8 border-2 h-60 mx-2 bg-yellow-200 rounded-xl p-2 shadow-2xl border-yellow-400 '>
-        <div className=' flex flex-col items-center justify-between gap-10 w-96 h-12' >
-            <div className=' flex rounded-full w-10 h-10'>
-            <Image className='rounded-full object-cover' src={src} width={80} height={80} />
+    <div className='flex flex-col justify-center text-center w-fit items-center my-8 border-2 h-80 mx-2 bg-yellow-200 rounded-xl p-2 shadow-2xl border-yellow-400 '>
+        <div className=' flex flex-col items-center justify-between gap-12 w-96 h-12' >
+            <div className=' flex md:w-12 md:h-12 rounded-full w-10 h-10 ' >
+            <Image className=' rounded-full object-cover' src={src} width={80} height={80} />
 
             </div>
             
        
        
         </div>
-        <p className='text-sm  w-60 md:w-full my-4'>{statement}</p>
+        <p className='text-md  w-60 md:w-96 my-4'>{statement}</p>
      
         <div className=''>
         <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
@@ -29,7 +29,8 @@ export const Testmonials = ({statement,src,author,}) => {
         <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
         <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />         <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
         </div>
-        <p>{author}</p>
+        <p  className='font-bold'>{author}</p>
+        <p className='my-2 text-sm'>{job}</p>
 
     </div>
   )

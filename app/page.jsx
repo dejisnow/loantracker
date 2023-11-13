@@ -8,7 +8,7 @@ import { Testmonials } from "@/Components/Home page components/Testmonials";
 
 export default function Home() {
   return (
-    <main className="bg-yellow-300">
+    <div className=" main bg-yellow-300">
       <div className='mainPage bg-yellow-500 w-full ' >
       <Hero />
 
@@ -104,11 +104,11 @@ export default function Home() {
       </section>
 
 
-      <section className="bg-yellow-100  relative w-full h-screen">
+      <section className="bg-yellow-100   relative w-full h-screen">
       <div className="hidden md:flex absolute w-2/4 h-40 rounded-full bg-yellow-200 bottom-10 right-80 rotate-180 z-10 "></div>
             <h2 className="text-center text-3xl font-extrabold my-10">Testimonials</h2>
         <div>
-          <div className=" bg-yellow-100 ">
+          <div className="   ">
           <Carousel
             showIndicators={false}
             
@@ -121,43 +121,49 @@ export default function Home() {
            
              >
             
-              <div className="mx-2">
+              <div className="mx-2 flex justify-center items-center">
 
             
             <Testmonials
             statement={`It's a must-have tool for anyone looking to take control of their loans and financial future.`}
-            src={'/loanImg2.jpg'}
+            src={'/testimg1.jpg'}
             author={'Jessica Smith'}
+            job={'(Economist)'}
 
             />
               </div>
-              <div className="mx-2">
+              <div className="mx-2  flex flex-col justify-center items-center">
 
             
 <Testmonials
-statement={`It's a must-have tool for anyone looking to take control of their loans and financial future.`}
-src={'/loanImg2.jpg'}
+statement={`I've been using this loan tracker app for months, and it's transformed the way I handle my loans. `}
+src={'/testimg2.jpg'}
 author={'Jessica Smith'}
+job={'(Finance Analyst)'}
 
 />
   </div>
-  <div className="mx-2">
+  <div className="mx-2  flex flex-col justify-center items-center">
 
             
 <Testmonials
-statement={`It's a must-have tool for anyone looking to take control of their loans and financial future.`}
-src={'/loanImg2.jpg'}
+statement={`As someone who has multiple loans, this app has been a lifesaver. It consolidates all my loan information in one place,
+ making it easy to track my progress and make payments.`}
+src={'/testimg3.jpg'}
 author={'Jessica Smith'}
+job={'(Banker)'}
 
 />
   </div>
-  <div className="mx-2">
+  <div className="mx-2  flex flex-col justify-center items-center">
 
             
 <Testmonials
-statement={`It's a must-have tool for anyone looking to take control of their loans and financial future.`}
-src={'/loanImg2.jpg'}
+statement={`"I can't express how much I appreciate this loan tracker app.
+It keeps me organized, ensures I never miss a payment,`}
+src={'/testimg4.jpg'}
 author={'Jessica Smith'}
+job={'(Stock broker)'}
 
 />
   </div>
@@ -175,10 +181,15 @@ author={'Jessica Smith'}
 
       </section>
 
+      <footer>
+      
+      </footer>
+  
+
    
    
 
-    </main>
+    </div>
 
 
 
