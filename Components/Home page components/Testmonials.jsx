@@ -11,15 +11,17 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export const Testmonials = ({statement,src,author,}) => {
   return (
-    <div className='flex flex-col justify-center items-center my-2 border-2 w-96 mx-2 p-2 border-yellow-700'>
-        <div className='flex justify-between gap-3 w-96 h-12' >
-            <div className='w-10 h-10'>
-            <Image className='rounded-full' src={src} width={80} height={80} />
+    <div className='flex flex-col justify-center text-center items-center my-8 border-2 h-60 mx-2 bg-yellow-200 rounded-xl p-2 shadow-2xl border-yellow-400 '>
+        <div className=' flex flex-col items-center justify-between gap-10 w-96 h-12' >
+            <div className=' flex rounded-full w-10 h-10'>
+            <Image className='rounded-full object-cover' src={src} width={80} height={80} />
 
             </div>
+            
        
-        <p className='text-sm'>{statement}</p>
+       
         </div>
+        <p className='text-sm  w-60 md:w-full my-4'>{statement}</p>
      
         <div className=''>
         <FontAwesomeIcon icon={faStar} style={{color: "#fff70f",}} />
