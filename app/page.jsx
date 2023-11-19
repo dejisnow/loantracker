@@ -5,6 +5,7 @@ import 'react-responsive-carousel/lib/styles/carousel.min.css'
 import { Carousel } from "react-responsive-carousel";
 import { AppInfo } from "@/Components/Home page components/AppInfo";
 import { Testmonials } from "@/Components/Home page components/Testmonials";
+import { Footer } from "@/Components/Home page components/Footer";
 
 export default function Home() {
   return (
@@ -171,25 +172,25 @@ job={'(Stock broker)'}
            
           </div>
 
-          <div>
-           
-            
-            
-          </div>
 
         </div>
 
       </section>
-
-      <footer>
       
-      </footer>
-  
 
+  
+      <footer className="">
+      
+         <Footer />
+       
+  
+      </footer>
    
    
 
     </div>
+    
+
 
 
 
