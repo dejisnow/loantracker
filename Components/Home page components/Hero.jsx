@@ -32,7 +32,7 @@ const Hero = () => {
               <div className='img__div flex flex-col gap-2'>
               <div className='hero__right flex justify-between gap-2 '>
             
-             <Image className='image1 z-10 rounded-xl absolute left-14   shadow-2xl '
+             <Image className='image1 z-10 rounded-xl absolute left-24   shadow-2xl '
               src='/loanImg2.jpg' alt='clock'
               quality={'100'}
      
@@ -71,7 +71,7 @@ const Hero = () => {
         </div>
         <div>
           Bottom
-            <div className='bg-yellow-200 rounded-lg  mx-9 h-32  shadow-lg'></div>
+            <div className='bg-yellow-200 rounded-3xl  mx-9 h-32  shadow-lg'></div>
 
         </div>
 

@@ -11,8 +11,8 @@ import { faStar } from '@fortawesome/free-solid-svg-icons'
 
 export const Testmonials = ({statement,src,author,job}) => {
   return (
-    <div className='flex flex-col justify-center text-center w-fit items-center my-8 border-2 h-80 mx-2 bg-yellow-200 rounded-xl p-2 shadow-2xl border-yellow-400 '>
-        <div className=' flex flex-col items-center justify-between gap-12 w-96 h-12' >
+    <div className='flex flex-col justify-center text-center w-fit items-center my-8 border-2 h-80 mx-2 bg-yellow-100 rounded-xl p-2 shadow-2xl border-yellow-400 '>
+        <div className=' flex flex-col items-center justify-between gap-4 w-96 h-12' >
             <div className=' flex md:w-12 md:h-12 rounded-full w-10 h-10 ' >
             <Image className=' rounded-full object-cover' src={src} width={80} height={80} />
 
