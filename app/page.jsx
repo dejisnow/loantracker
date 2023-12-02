@@ -100,6 +100,7 @@ export default function Home() {
         </div>
           <div>
           <AppInfo />
+          
           </div>
 
       </section>
