@@ -26,7 +26,7 @@ export const AppInfo = () => {
 
           
             <div className='info hidden md:flex flex-50 justify-center '>
-            <Image  src='/loanImgCar.jpg' className='rounded-lg top-20 absolute' style={{objectFit:'contain'}} width={350} height={350}  quality={100} alt='info' />
+            <Image  src='/loanImgCar.jpg' className='rounded-lg top-10 absolute' style={{objectFit:'contain'}} width={350} height={350}  quality={100} alt='info' />
 
             </div>
          
@@ -34,6 +34,7 @@ export const AppInfo = () => {
 
             
         </div>
+
       
 
     </div>
