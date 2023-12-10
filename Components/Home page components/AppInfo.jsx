@@ -34,7 +34,22 @@ export const AppInfo = () => {
 
             
         </div>
+    <div className='absolute left-4 bottom-60 flex justify-between gap-4' >
+      <div className='w-80 relative shadow-xl h-40 bg-yellow-200'>
+        <div>
+          <Image src='/badge.png' width={50} height={50} />
 
+        </div>
+        <div className='text-center my-4'>
+          <h2>Secure</h2>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quae!</p>
+        </div>
+      
+      </div>
+      <div className='w-80 shadow-xl h-40 bg-yellow-200'></div>
+     
+
+    </div>
       
 
     </div>
