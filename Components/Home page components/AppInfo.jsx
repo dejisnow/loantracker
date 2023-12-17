@@ -7,17 +7,21 @@ export const AppInfo = () => {
         <div className='h-screen flex-col flex md:flex-row relative '>
         <div className=' my-10  text-justify flex-50'>
             <div>
-                <h2 className='text-xl my-4 text-center font-bold'>Check it out</h2>
+                <h2 className='text-xl my-4 text-center font-bold'>User Data Security</h2>
             </div>
 
             <div className='px-4 '>
             <p >
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Libero, maiores vero? Cumque praesentium expedita, delectus libero perspiciatis nobis vitae earum iusto velit qui in illum, consectetur ullam pariatur quos eaque.
+             
+             Loan track prioritize the scurity and confidentiality of our user
+             personal and financial information. Our commitment to safeguarding your data is reflected 
+             in the robust measures we have implemented to ensure a secure and trustworthy user experience
+
             </p>
             <div className='my-4'>
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur libero animi deleniti 
-                doloremque dolorem ipsa obcaecati ad? Dolores, totam nemo.</p>
+              <p>Your loan-related documents and information are securely stored in our system.
+                Loan track also allows you export your loan and repayment data standard formats.
+              </p>
             </div>
 
             </div>
@@ -37,23 +41,26 @@ export const AppInfo = () => {
     <div className='absolute left-4 bottom-60 flex justify-between gap-4' >
       <div className='w-80 relative shadow-xl h-40 bg-yellow-200'>
         <div>
-          <Image src='/badge.png' className='absolute left-10' width={50} height={50} />
+          <Image src='/badge.png' className='absolute left-0' width={50} height={50} />
 
         </div>
         <div className='text-center my-4'>
-          <h2 className='my-4'>Secure</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quae!</p>
+          <h2 className='my-4'>Secure Database Encryption</h2>
+          <p>Robust encryption protocols to secure sensitive user data 
+            stored on the database.
+          </p>
         </div>
       
       </div>
       <div className='w-80 relative shadow-xl h-40 bg-yellow-200'>
          <div>
-          <Image src='/fast lightning.png'  className='absolute left-10' width={50} height={50} />
+          <Image src='/fast lightning.png'  className='absolute left-0' width={50} height={50} />
 
         </div>
         <div className='text-center my-4'>
-          <h2 className='my-4'>Fast</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus, quae!</p>
+          <h2 className='my-4 '>Live Data Synchronization</h2>
+          <p>Fast synchronization with database ensuring users have access to the most up-to-date
+            information. </p>
         </div>
       </div>
      

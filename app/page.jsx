@@ -96,7 +96,7 @@ export default function Home() {
       <section className="bg-yellow-100 relative">
       <div className="hidden md:flex absolute w-2/4 h-40 rounded-full bg-yellow-200 bottom-5 right-80 rotate-180 z-10 "></div>
         <div>
-            <h2 className="text-center text-3xl font-extrabold">Loan Tracking & Management</h2>
+            <h2 className="text-center text-3xl font-extrabold">Protection and Mangement</h2>
         </div>
           <div>
           <AppInfo />
