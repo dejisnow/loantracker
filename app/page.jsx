@@ -82,7 +82,7 @@ export default function Home() {
       </ul>
 
      
-         <button className="bg-yellow-300 p-2 rounded-lg">Click here to get started </button>
+         <button className="bg-yellow-300 p-2 hover:bg-yellow-200  rounded-lg">Click here to get started </button>
 
 
     </div>

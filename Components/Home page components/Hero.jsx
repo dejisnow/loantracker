@@ -26,7 +26,7 @@ const Hero = () => {
                         
                     
                 </div>
-                <button onClick={signUp} className='bg-yellow-300 mt-8 rounded-lg p-1.5'>Create an account</button>
+                <button onClick={signUp} className='bg-yellow-300 mt-8 text-lg hover:bg-yellow-200 rounded-lg p-1.5'>Create an account</button>
             </div>
             <div className='right flex-50 m-10 max-md:hidden rounded-full bg-yellow-200 '>
               <div className='img__div flex flex-col gap-2'>

@@ -13,7 +13,7 @@ export const Features = ({header,description,source,imgAlt,buttonName}) => {
             <p className='text-center'>{description}</p>
         </div>
         <div>
-            <button className='bg-yellow-300 rounded-lg p-2 '>{buttonName}</button>
+            <button className='bg-yellow-300 my-2 hover:bg-yellow-200  rounded-lg p-2 '>{buttonName}</button>
         </div>
     </div>
   )
